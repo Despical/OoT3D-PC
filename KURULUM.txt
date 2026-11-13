@@ -1,0 +1,63 @@
+OCARINA OF TIME 3D (TriAevum) - KURULUM
+=======================================
+
+Bu pakette 2 dosya var:
+  - TriAevum-v0.6.0-alpha.2b-Windows-x64.zip  -> programın kendisi
+  - topscreen211.zip                           -> doku paketi (Forge bunu artık kendisi indiremiyor)
+
+Gerekenler: Ocarina of Time 3D'nin kendi DECRYPTED .3ds ya da .cci ROM'u
+(USA veya EUR). Şifreli (decrypted olmayan) ROM çalışmaz.
+
+ADIM ADIM
+---------
+1. AMD sürücünü güncelle (AMD Software: Adrenalin -> Güncellemeleri kontrol et).
+
+2. "TriAevum-v0.6.0-alpha.2b-Windows-x64.zip" dosyasını yazma izni olan bir
+   klasöre çıkar, mesela Masaüstü\TriAevum.
+   (Program Files'a koyma.)
+   İçinden "Windows" diye bir klasör çıkacak, her şey onun içinde.
+
+3. "topscreen211.zip" dosyasını AÇMADAN, olduğu gibi o "Windows" klasörüne,
+   TriAevumForge.exe'nin yanına kopyala.
+
+4. TriAevumForge.exe'yi çalıştır, kendi decrypted .3ds ROM'unu seç.
+   Kurulum birkaç dakika sürebilir, bitmesini bekle.
+
+5. Kurulum bitince "Launch game"e bas.
+   Bundan sonra oyunu her seferinde TriAevum.exe ile aç.
+
+OYUN İÇİNDE
+-----------
+  F1  -> Ayarlar menüsü (grafik, ses, kontroller, kayıt)
+  F2  -> Ek grafik efektlerini geçici kapat / aç
+
+  Tam ekran: F1 -> "Window mode" -> Borderless (önerilen) veya ExclusiveFullscreen
+
+RX 470 İÇİN AYAR ÖNERİSİ
+------------------------
+  - F1'den Preset'i "Authentic" yap (en hafif ayar), ya da
+    gölgeleri, ambient occlusion'ı (AO) ve çimeni kapat / düşür.
+  - FPS modunu "Original30" yap.
+  Sorunsuz giderse ayarları yavaş yavaş yükseltebilirsin.
+
+SORUN ÇIKARSA
+-------------
+  - "TopScreen textures" hatası: topscreen211.zip TriAevumForge.exe'nin
+    yanında değil ya da açılmış. 3. adımı tekrar yap.
+  - Oyun açılıp hemen kapanıyorsa: Windows\logs klasöründeki .log dosyasını
+    gönder, bakılsın.
+  - "data" klasörünü silme: kayıtların ve ayarların orada.
+
+İNDİRME LİNKLERİ
+----------------
+  TriAevum v0.6.0-alpha.2b : https://github.com/coccofresco/TriAevum/releases
+  TopScreen 2.1.1          : https://gamebanana.com/mods/695893
+    (Drive yedeği)         : https://drive.usercontent.google.com/download?id=1YOqjmq4g6HSlSdU1D9Q-M5BOQvbOWZFX&export=download&confirm=t
+
+NEDEN EN SON SÜRÜM DEĞİL?
+-------------------------
+  En yeni TriAevum (Echoes of Time / v0.8.0-beta.1, alpha.3, alpha.3b) AMD
+  kartlarda amdvlk64.dll içinde çöküyor ya da "VkResult -4" (device lost)
+  hatası veriyor. alpha.3/3b geliştirici tarafından geri çekildi.
+  v0.6.0-alpha.2b + elle verilen topscreen211.zip AMD'de sorunsuz çalışıyor.
+  Ayrıntılar: README.md

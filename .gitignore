@@ -1,0 +1,24 @@
+# Never commit game files, ROMs or third-party binaries
+*.3ds
+*.cci
+*.cia
+*.cxi
+*.zip
+*.7z
+*.rar
+*.exe
+*.dll
+*.log
+
+# TriAevum install / user data
+Windows/
+data/
+logs/
+private-plugins/
+runtime/
+.triaevum-forge-runtime/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
