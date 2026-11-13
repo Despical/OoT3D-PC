@@ -4,8 +4,6 @@ How to play the **3DS version** of *The Legend of Zelda: Ocarina of Time 3D* nat
 with the single-screen TopScreen UI, using the **TriAevum** PC recompilation. Tested and working on
 **AMD Radeon** cards.
 
-> Türkçe kısa kurulum: [KURULUM.txt](KURULUM.txt)
-
 This repository contains **only documentation**. It does not contain the game, a ROM, the TriAevum
 binaries or the TopScreen files. You download those yourself from the links below.
 
