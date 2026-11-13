@@ -160,8 +160,13 @@ Get-FileHash .\topscreen211.zip -Algorithm SHA256
 
 You need a decrypted dump of **your own** Ocarina of Time 3D cartridge. With a homebrewed 3DS you
 can dump it with [GodMode9](https://github.com/d0k3/GodMode9) (*Gamecart → Dump → `.3ds` decrypted*).
-See [3ds.hacks.guide](https://3ds.hacks.guide/) to get started. This repo does not link to ROM
-download sites.
+See [3ds.hacks.guide](https://3ds.hacks.guide/) to get started.
+
+If your dump is encrypted, Forge will reject it. You can decrypt it on PC with
+[rom-converto](https://github.com/DevYukine/rom-converto) and then select the resulting
+`.decrypted.3ds` file in Forge.
+
+This repo does not host or link to ROMs.
 
 ## Credits
 
