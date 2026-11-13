@@ -7,8 +7,7 @@ with the single-screen TopScreen UI, using the **TriAevum** PC recompilation. Te
 This repository includes the unmodified **TriAevum v0.6.0-alpha.2b** Windows release in
 [`TriAevum/`](TriAevum), so you don't have to hunt for the old version. It does **not** include a
 ROM. The exact **TopScreen 2.1.1** package Forge needs is mirrored as a
-[release download](https://github.com/Despical/OoT3D-PC/releases/download/topscreen-2.1.1/topscreen211.zip) (it's over GitHub's 100 MB file limit, so it can't live in the repo itself).
-All credit for TopScreen goes to its author, **rlgcarrot** (see [Credits](#credits)).
+[release download](https://github.com/Despical/OoT3D-PC/releases/download/topscreen-2.1.1/topscreen211.zip).
 
 ---
 
@@ -17,7 +16,7 @@ All credit for TopScreen goes to its author, **rlgcarrot** (see [Credits](#credi
 | What | Version | Where |
 |---|---|---|
 | TriAevum (the PC port) | **v0.6.0-alpha.2b**, Windows x64 | Included in [`TriAevum/`](TriAevum) · [upstream release](https://github.com/coccofresco/TriAevum/releases/tag/v0.6.0-alpha.2b) |
-| TopScreen texture/patch pack | **2.1.1** (`topscreen211.zip`) | [Download from this repo's release](https://github.com/Despical/OoT3D-PC/releases/download/topscreen-2.1.1/topscreen211.zip) · [GameBanana (official page)](https://gamebanana.com/mods/695893) · [Google Drive mirror](https://drive.usercontent.google.com/download?id=1YOqjmq4g6HSlSdU1D9Q-M5BOQvbOWZFX&export=download&confirm=t) |
+| TopScreen texture/patch pack | **2.1.1** (`topscreen211.zip`) | [Download from this repo's release](https://github.com/Despical/OoT3D-PC/releases/download/topscreen-2.1.1/topscreen211.zip) · [Google Drive mirror](https://drive.usercontent.google.com/download?id=1YOqjmq4g6HSlSdU1D9Q-M5BOQvbOWZFX&export=download&confirm=t) |
 | Game | OoT3D **USA or EUR**, **decrypted** `.3ds` / `.cci` | Dump your own cartridge (see [ROM](#the-rom)) |
 
 Do **not** use the newest TriAevum (Echoes of Time / v0.8.0-beta.1, alpha.3, alpha.3b) on AMD.
@@ -157,8 +156,7 @@ This repo does not host or link to ROMs.
 - **[TopScreen](https://gamebanana.com/mods/695893)** by **rlgcarrot**: the single-screen mod for OoT3D, and the
   `topscreen211.zip` mirrored in this repo's releases. It's rlgcarrot's work, unmodified and only
   mirrored here because version 2.1.1 is no longer listed on GameBanana and TriAevum alpha.2b needs exactly
-  that version. If you enjoy it, [buy rlgcarrot a coffee](https://ko-fi.com/rlgcarrot).
-  rlgcarrot, if you'd like the mirror taken down, open an issue and it will be removed.
+  that version. rlgcarrot, if you'd like the mirror taken down, open an issue and it will be removed.
 - Azahar, Ship of Harkinian, libultraship, NVIDIA NRI, SDL GameControllerDB
 - **Nintendo** and **Grezzo** for the original game
 
