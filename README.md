@@ -76,12 +76,6 @@ TriAevum\
 
 Fullscreen: **F1 → Window mode → Borderless** (recommended) or *ExclusiveFullscreen*.
 
-### Recommended settings for weaker AMD cards (RX 470 / RX 570 / RX 5500)
-
-- **F1 → Preset → `Authentic`** (lightest), or lower/turn off **shadows**, **ambient occlusion (AO)** and **grass**.
-- **FPS mode → `Original30`**.
-- If it runs smoothly, raise the settings step by step.
-
 ### Controllers (PS4 / PS5 / Xbox)
 
 - Connect the controller **before** starting `TriAevum.exe`. It's detected at launch.
@@ -93,12 +87,11 @@ Fullscreen: **F1 → Window mode → Borderless** (recommended) or *ExclusiveFul
 - **Sound comes out of the PS4 controller?** Over USB, Windows also adds the controller as an audio
   output. Switch the output back to your headset/speakers from the taskbar volume menu, then restart the game.
   To stop it for good, go to *Sound settings → Output → Wireless Controller → Don't allow*.
-  This doesn't happen over Bluetooth.
 
 ## Why not the latest version?
 
 The newest TriAevum releases (renamed **"Echoes of Time"**, v0.8.0-beta.1; also alpha.3/alpha.3b)
-**do not work on AMD** in our testing:
+**do not work on AMD** in my testing:
 
 - The game crashes a few seconds after launch, **inside the AMD Vulkan driver** (`amdvlk64.dll`,
   access violation `0xc0000005`), or stops with `vkQueueSubmit(frame) failed with VkResult -4`
@@ -110,7 +103,7 @@ The newest TriAevum releases (renamed **"Echoes of Time"**, v0.8.0-beta.1; also 
   [#84](https://github.com/coccofresco/TriAevum/issues/84),
   [#118](https://github.com/coccofresco/TriAevum/issues/118)). In #84 a user also confirms that
   v0.6.0-alpha.2b runs on the same AMD PC.
-- Workarounds we tried on v0.8.0-beta.1, none of which worked:
+- Workarounds I tried on v0.8.0-beta.1, none of which worked:
   - `TRIAEVUM_NRI_PIPELINE_LIBRARIES=0` removes the `amdvlk64.dll` crash, but you then get `VkResult -4` on the first frame.
   - Turning off shadows, AO and point shadows: same `VkResult -4`.
   - Deleting the renderer pipeline cache: same error.
