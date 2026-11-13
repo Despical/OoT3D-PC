@@ -1,4 +1,4 @@
-# Never commit game files, ROMs or third-party binaries
+# Never commit game files or ROMs
 *.3ds
 *.cci
 *.cia
@@ -10,20 +10,30 @@
 *.dll
 *.log
 
-# TriAevum install / user data
-Windows/
-data/
-logs/
-private-plugins/
-runtime/
-.triaevum-forge-runtime/
+# Bundled TriAevum v0.6.0-alpha.2b release (unmodified) is tracked
+!TriAevum/**
 
-# OS
-Thumbs.db
-desktop.ini
-.DS_Store
+# ...but not what Forge/the game create when run from this folder
+TriAevum/topscreen211.zip
+TriAevum/data/
+TriAevum/logs/
+TriAevum/private-plugins/
+TriAevum/runtime/
+TriAevum/.triaevum-forge-runtime/
+TriAevum/imgui.ini
+TriAevum/TriAevum.launch.json
+
+# Other TriAevum installs
+Windows/
+/data/
+/logs/
 
 # IDE
 .idea/
 *.iml
 .vscode/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store

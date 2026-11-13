@@ -4,8 +4,9 @@ How to play the **3DS version** of *The Legend of Zelda: Ocarina of Time 3D* nat
 with the single-screen TopScreen UI, using the **TriAevum** PC recompilation. Tested and working on
 **AMD Radeon** cards.
 
-This repository contains **only documentation**. It does not contain the game, a ROM, the TriAevum
-binaries or the TopScreen files. You download those yourself from the links below.
+This repository includes the unmodified **TriAevum v0.6.0-alpha.2b** Windows release in
+[`TriAevum/`](TriAevum), so you don't have to hunt for the old version. It does **not** include a
+ROM or the TopScreen files. You get those yourself (see below).
 
 ---
 
@@ -13,7 +14,7 @@ binaries or the TopScreen files. You download those yourself from the links belo
 
 | What | Version | Where |
 |---|---|---|
-| TriAevum (the PC port) | **v0.6.0-alpha.2b**, Windows x64 ZIP | [GitHub releases](https://github.com/coccofresco/TriAevum/releases) |
+| TriAevum (the PC port) | **v0.6.0-alpha.2b**, Windows x64 | Included in [`TriAevum/`](TriAevum) · [upstream release](https://github.com/coccofresco/TriAevum/releases/tag/v0.6.0-alpha.2b) |
 | TopScreen texture/patch pack | **2.1.1** (`topscreen211.zip`) | [GameBanana (official)](https://gamebanana.com/mods/695893) · [Google Drive mirror](https://drive.usercontent.google.com/download?id=1YOqjmq4g6HSlSdU1D9Q-M5BOQvbOWZFX&export=download&confirm=t) |
 | Game | OoT3D **USA or EUR**, **decrypted** `.3ds` / `.cci` | Dump your own cartridge (see [ROM](#the-rom)) |
 
@@ -48,17 +49,17 @@ It has two programs:
 ## Installation
 
 1. **Update your GPU driver.** AMD: *AMD Software: Adrenalin Edition → Check for updates*.
-2. Download **`TriAevum-v0.6.0-alpha.2b-Windows-x64.zip`** (the release ZIP, *not* GitHub's
-   "Source code" archive) and extract it to a **writable** folder, e.g. `Desktop\TriAevum`.
-   Don't use `Program Files`. Everything ends up in a folder called `Windows`.
+2. Download this repository: **Code → Download ZIP**, or `git clone` it. Extract it to a
+   **writable** folder, e.g. `Desktop\OoT3D-PC`. Don't use `Program Files`.
+   Everything you need is in the `TriAevum` folder.
 3. Download **`topscreen211.zip`** (TopScreen 2.1.1). **Do not extract it.** Copy the ZIP as-is into
-   that `Windows` folder, next to `TriAevumForge.exe`.
+   the `TriAevum` folder, next to `TriAevumForge.exe`.
    Forge in this version can no longer download the TopScreen package by itself, so it must be there locally.
 4. Run **`TriAevumForge.exe`** and select your decrypted ROM. Setup takes a few minutes; let it finish.
 5. Press **Launch game**. From now on, start the game with **`TriAevum.exe`**.
 
 ```
-Windows\
+TriAevum\
 ├── TriAevumForge.exe
 ├── TriAevum.exe
 ├── topscreen211.zip      ← put it here, still zipped
@@ -118,17 +119,17 @@ The newest TriAevum releases (renamed **"Echoes of Time"**, v0.8.0-beta.1; also 
 ### Why TopScreen has to be provided manually
 
 v0.6.0-alpha.2b's Forge requires exactly **TopScreen 2.1.1** (`topscreen211.zip`,
-179,430,508 bytes, SHA-256 below) and rejects anything else. That file has been removed from
+179,430,508 bytes, checked by hash) and rejects anything else. That file has been removed from
 GameBanana (only the newer `singlescreen_322.zip` is listed now), so Forge's automatic download gets
 a ~49 KB web page instead of the archive and setup fails. Follow
 [TRIAEVUM_TOPSCREEN_INSTALLATION.md](https://github.com/coccofresco/TriAevum/blob/main/docs/TRIAEVUM_TOPSCREEN_INSTALLATION.md),
 or use the Drive mirror above, then put the ZIP next to `TriAevumForge.exe`. Forge then uses the
 local file and doesn't try to download it.
 
-Nothing in TriAevum itself is patched or modified. Both files are the original, unmodified
-downloads, and you can check them against the hashes below.
+Nothing in TriAevum itself is patched or modified. The `TriAevum/` folder is the official
+v0.6.0-alpha.2b Windows ZIP, extracted as-is.
 
-**v0.6.0-alpha.2b (the official release ZIP) + TopScreen 2.1.1 provided locally** is the combination that installs cleanly and
+**v0.6.0-alpha.2b (the official release) + TopScreen 2.1.1 provided locally** is the combination that installs cleanly and
 runs on AMD. If a later release fixes AMD, this guide will be updated.
 
 ## Troubleshooting
@@ -137,24 +138,11 @@ runs on AMD. If a later release fixes AMD, this guide will be updated.
 |---|---|
 | "TopScreen textures" error in Forge | `topscreen211.zip` isn't next to `TriAevumForge.exe`, or it was extracted. Redo step 3. |
 | ROM rejected | It's encrypted, a `.cia`, or not USA/EUR. Use a decrypted `.3ds`/`.cci` dump. |
-| Game opens then closes immediately | Update the GPU driver, use the `Authentic` preset, and check `Windows\logs\*.log`. |
+| Game opens then closes immediately | Update the GPU driver, use the `Authentic` preset, and check `TriAevum\logs\*.log`. |
 | `VkResult -4` / crash in `amdvlk64.dll` | You're on a newer TriAevum build. Use v0.6.0-alpha.2b. |
 | Lost saves | Never delete `data\`. Saves and settings are stored there. Back it up before updating. |
 
 When reporting issues upstream, read the logs for personal info first and **never upload ROMs or game files**.
-
-## Verifying downloads (optional)
-
-SHA-256 of the files used for this guide:
-
-```
-a30730b98827e316743cdbed25e7d2f5c8343b44eeffe21b5249fa14c1a2246d  TriAevum-v0.6.0-alpha.2b-Windows-x64.zip
-e0c143c872ccf4ad72033caab768753b147a4033d260a701204a63ee6bc16df4  topscreen211.zip
-```
-
-```powershell
-Get-FileHash .\topscreen211.zip -Algorithm SHA256
-```
 
 ## The ROM
 
@@ -177,6 +165,14 @@ This repo does not host or link to ROMs.
 
 ## License
 
-The text of this guide is under the [MIT License](LICENSE). That covers this repository's
-documentation only. TriAevum, TopScreen and the game keep their own licenses and copyrights. This
+The text of this guide is under the [MIT License](LICENSE). That covers this repository's own
+documentation only.
+
+The bundled [`TriAevum/`](TriAevum) folder is redistributed unmodified under its own license
+(GPL-3.0-or-later for TriAevum's original code; third-party components keep their licenses). See
+[`TriAevum/LICENSE`](TriAevum/LICENSE), [`TriAevum/LICENSE_SCOPE.md`](TriAevum/LICENSE_SCOPE.md) and
+[`TriAevum/THIRD_PARTY_NOTICES.md`](TriAevum/THIRD_PARTY_NOTICES.md). Its corresponding source is
+included in [`TriAevum/source/`](TriAevum/source), as required by the GPL.
+
+TopScreen and the game keep their own licenses and copyrights. This
 project is not affiliated with Nintendo, Grezzo, TriAevum or TopScreen.

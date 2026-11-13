@@ -1,0 +1,952 @@
+{
+  "files": [
+    {
+      "bytes": 35149,
+      "path": "LICENSE",
+      "role": "license",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "bytes": 1687,
+      "path": "LICENSES/Capstone-BSD.txt",
+      "role": "license",
+      "sha256": "65e9ed46a59976eda8f5bd1ea79a680dea38dd299c760bc9a8d87a764ef5029b"
+    },
+    {
+      "bytes": 19281,
+      "path": "LICENSES/GPL-2.0-or-later.txt",
+      "role": "license",
+      "sha256": "a77e81713ddfe05f9f7f3a3c46de4147f82b5fe9d6e5e24af96e36a6de53f613"
+    },
+    {
+      "bytes": 1126,
+      "path": "LICENSES/LLVM-exception.txt",
+      "role": "license",
+      "sha256": "19cd5b5e0e859b2785adf33e6ebdccfb8c6ae3e37f1b8f8631b82dabddd50e25"
+    },
+    {
+      "bytes": 1080,
+      "path": "LICENSES/Microsoft-Visual-Cpp-Runtime.md",
+      "role": "license",
+      "sha256": "90ba0998447fbee2349e459d4f264784b04c79150ac94c4763cf44a3e3f11f1c"
+    },
+    {
+      "bytes": 1075,
+      "path": "LICENSES/NRI-MIT.txt",
+      "role": "license",
+      "sha256": "505fd8c7be066dcbff6d77cf03ad66a115ade692c1b871319ee8772f041dc61b"
+    },
+    {
+      "bytes": 32138,
+      "path": "LICENSES/PyInstaller-GPL-2.0-or-later-with-bootloader-exception.txt",
+      "role": "license",
+      "sha256": "dcf75fdb959db1e3b41c0f8505069d2ece781b5ec6b3d0a4d30975cfc6580245"
+    },
+    {
+      "bytes": 33279,
+      "path": "LICENSES/Python-3.13.txt",
+      "role": "license",
+      "sha256": "59688d8633ce27b1d8220f223b9520c4e039e4ba6ccceb345793a74fd5c155b9"
+    },
+    {
+      "bytes": 1907,
+      "path": "LICENSES/README.md",
+      "role": "license",
+      "sha256": "2fa0b40b67923d6a193569baa986b760c9c41c3932b80b6a504b421c60a101ba"
+    },
+    {
+      "bytes": 884,
+      "path": "LICENSES/SDL-GameControllerDB-zlib.txt",
+      "role": "license",
+      "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+    },
+    {
+      "bytes": 884,
+      "path": "LICENSES/SDL2-zlib.txt",
+      "role": "license",
+      "sha256": "97f35b302b361680ec1e891e95d2d52097bb95abff361434916d99dc1305f127"
+    },
+    {
+      "bytes": 1090,
+      "path": "LICENSES/libultraship-MIT.txt",
+      "role": "license",
+      "sha256": "fdd4f25c62f0a30865c4395d53e731be208c7b8912d5c068dbd93ca7fadc8a97"
+    },
+    {
+      "bytes": 1506,
+      "path": "LICENSES/nihstro-BSD-3-Clause.txt",
+      "role": "license",
+      "sha256": "27506f579df456adae7c4cab1264c99c895177fa1c7aa9743ab1f3bf77a66ff5"
+    },
+    {
+      "bytes": 1075,
+      "path": "LICENSES/nlohmann-json-MIT.txt",
+      "role": "license",
+      "sha256": "c0d068392ea65358b798b8c165103560f06e9e3b38c4ab4e2d8810a7b931af86"
+    },
+    {
+      "bytes": 10174,
+      "path": "LICENSES/shaderc-Apache-2.0.txt",
+      "role": "license",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "bytes": 2417,
+      "path": "LICENSE_SCOPE.md",
+      "role": "documentation",
+      "sha256": "89abd36017211ac30a282d65ea7b848c8ef14fc905e516b0fbd14bdc77dd6237"
+    },
+    {
+      "bytes": 5789,
+      "path": "README.md",
+      "role": "documentation",
+      "sha256": "db8190281ec488be57ec5b61bd10cb010cef01a7538a0d80cea3078bb3e096d5"
+    },
+    {
+      "bytes": 1955,
+      "path": "SOURCE_OFFER.md",
+      "role": "documentation",
+      "sha256": "6256b9012456976be59595cc6b0b48c32a65e2da0423201186c9488b4c4670b7"
+    },
+    {
+      "bytes": 10530,
+      "path": "THIRD_PARTY_NOTICES.md",
+      "role": "documentation",
+      "sha256": "cdac45753ce2c6778252baf5566953ce51af8779a520f49e5a07ced1b2c86ac4"
+    },
+    {
+      "bytes": 31551488,
+      "path": "TriAevum.exe",
+      "role": "runtime_executable",
+      "sha256": "c85597fe52f398a7330dc789e86b20c0af3e3c616a42367eef1b1ba3224c0e23"
+    },
+    {
+      "bytes": 17858398,
+      "path": "TriAevumForge.exe",
+      "role": "forge_executable",
+      "sha256": "f72823b8336ddc3cc6ff7e1203833bf97c9fc4e7f78f04fad98b5b174c175693"
+    },
+    {
+      "bytes": 1610,
+      "path": "docs/AZAHAR_AUDIO_PROVENANCE.md",
+      "role": "documentation",
+      "sha256": "1fc980ca3088443036eb191e344554d71204b7af62bf7179d94ec730e623a8cc"
+    },
+    {
+      "bytes": 9076,
+      "path": "docs/TRIAEVUM_CONTRIBUTIONS.md",
+      "role": "documentation",
+      "sha256": "898582fbfa299782e8d68a417364d61b24a4897375b3f21f182ce974c235972f"
+    },
+    {
+      "bytes": 11690,
+      "path": "docs/TRIAEVUM_DESKTOP_PACKAGING.md",
+      "role": "documentation",
+      "sha256": "ba931253a06d50ba64196080f810f9e52f3358f7b0a692f1007dd2964e3e410b"
+    },
+    {
+      "bytes": 9880,
+      "path": "docs/TRIAEVUM_FORGE.md",
+      "role": "documentation",
+      "sha256": "fdc58757140de1f190a99a627865a62512120ce4db058c532b7150719274d7f2"
+    },
+    {
+      "bytes": 3070,
+      "path": "docs/TRIAEVUM_FORGE_WHOLE_AOT_V2.md",
+      "role": "documentation",
+      "sha256": "9a9009b2ee023fc7fd5dd9579b0b80aa71a84e742a8cf94ae373b3ebc1fcebf2"
+    },
+    {
+      "bytes": 6775,
+      "path": "docs/TRIAEVUM_GRAPHICS_DEFAULTS_AND_GRASS_PERFORMANCE.md",
+      "role": "documentation",
+      "sha256": "fe0fe6514cc68fd5d9a47c3cd71593578b8ef0eb6c73b62c1f9009be59e8a9ea"
+    },
+    {
+      "bytes": 8547,
+      "path": "docs/TRIAEVUM_PRECOMPILED_RELEASE.md",
+      "role": "documentation",
+      "sha256": "1d67c68be355e72de5893bacf48af162921e3dc9a68f1facbe122173effd5f41"
+    },
+    {
+      "bytes": 9108,
+      "path": "docs/TRIAEVUM_PRODUCT_WORKFLOW.md",
+      "role": "documentation",
+      "sha256": "b67acb6b6a6a00317c56b5502e02945c45c1274b90fd6b4f0cdb5fc9e0947357"
+    },
+    {
+      "bytes": 3181,
+      "path": "docs/TRIAEVUM_PROVENANCE_POLICY.md",
+      "role": "documentation",
+      "sha256": "18feb1b52d745d931e016a3de42389acba24065be1a5b7ff2c4bd4384726ec12"
+    },
+    {
+      "bytes": 3937,
+      "path": "docs/TRIAEVUM_PUBLIC_RUNTIME_VERTICAL.md",
+      "role": "documentation",
+      "sha256": "4c62d37d1387b7798043ac69394cc16dfb6e07fd429868a78f284318616c60df"
+    },
+    {
+      "bytes": 1364,
+      "path": "docs/TRIAEVUM_RELEASE_APPROVAL_RECORD.md",
+      "role": "documentation",
+      "sha256": "ec6098b9f618bfd51e9b218a9c2f41676291d15e7095b4281050c8ce8da35e71"
+    },
+    {
+      "bytes": 9570,
+      "path": "docs/TRIAEVUM_RELEASE_ARCHITECTURE.md",
+      "role": "documentation",
+      "sha256": "cf9b503592c4e9aec74366242f19679b58f29c9755244173a326a26a2b9afdd6"
+    },
+    {
+      "bytes": 8520,
+      "path": "docs/TRIAEVUM_ROM_INPUT_ADAPTER.md",
+      "role": "documentation",
+      "sha256": "12d8f62200cb2f81f7b643561f5943e8f8ed09de2e6ebf5b4c654ea3b8f3335f"
+    },
+    {
+      "bytes": 5974,
+      "path": "docs/TRIAEVUM_SUPPORTED_ROM.md",
+      "role": "documentation",
+      "sha256": "0e2d8e5c5eff66f4022f12cb02595d8d49c010096e78c0eadc6f9801e8e46846"
+    },
+    {
+      "bytes": 4997,
+      "path": "docs/TRIAEVUM_TOPSCREEN_INSTALLATION.md",
+      "role": "documentation",
+      "sha256": "c948f980061cabb135f05665b2e994578bf69e18b56ca73786f22a1610409bf9"
+    },
+    {
+      "bytes": 5217,
+      "path": "docs/TRIAEVUM_USA_REV1_PORT.md",
+      "role": "documentation",
+      "sha256": "0aafc5da29a197ab0925d4105e4ef2d755a61a6d4f7071800353a9b315f375d6"
+    },
+    {
+      "bytes": 3143,
+      "path": "docs/releases/v0.6.0-alpha.2.md",
+      "role": "documentation",
+      "sha256": "f3f6633c9b421a8d55993acb2afec469d5e159c8e91e3bfe8b9e3570a2f5b675"
+    },
+    {
+      "bytes": 1940,
+      "path": "docs/releases/v0.6.0-alpha.2b.md",
+      "role": "documentation",
+      "sha256": "e6a92710d994ab07e9b2b16aaa0b916f90d1623a6dd8982394ac0b06d406831c"
+    },
+    {
+      "bytes": 1883136,
+      "path": "forge/oot3d_game_module.dll",
+      "role": "forge_runtime_module",
+      "sha256": "5a4bc837d5ecdce890e6f6dad615467c2e106e865c1241dca487499ec77a5f1a"
+    },
+    {
+      "bytes": 701952,
+      "path": "forge/oot3d_native_nri_pipeline_prepare.exe",
+      "role": "shader_preparation_tool",
+      "sha256": "97cd851e20c2b094870229d526037e806ae3e63c2b93ec6c987a0637c4516478"
+    },
+    {
+      "bytes": 836096,
+      "path": "forge/oot3d_native_pica_aot_compiler.exe",
+      "role": "shader_preparation_tool",
+      "sha256": "05b909ab65f785a8a1f96fe37f49662a4b80a8024a098900465e16528afe9cb5"
+    },
+    {
+      "bytes": 2556320,
+      "path": "forge/shader-corpus/pipelines-0.json",
+      "role": "portable_pipeline_recipes",
+      "sha256": "7f1e4fdce1754b80e883fa8451263af12935183647b99aaffe7daff0bddd02a0"
+    },
+    {
+      "bytes": 448199,
+      "path": "forge/shader-corpus/pipelines-1.json",
+      "role": "portable_pipeline_recipes",
+      "sha256": "70fac28093656caa55432b6932977e70ce06dc308f6ee31563c14ead99e4bf31"
+    },
+    {
+      "bytes": 8521760,
+      "path": "forge/shader-corpus/portable.o3ps",
+      "role": "portable_shader_corpus",
+      "sha256": "1311f12de7379be8c8b5dcc0226eff4a560831ba1f2898cb8b999c83efb8b4c8"
+    },
+    {
+      "bytes": 5045688,
+      "path": "forge/shaderc_shared.dll",
+      "role": "forge_runtime_module",
+      "sha256": "ff7eb3639f2c72e99b0d904af13401ff994c6471446b1e8792fe4c9250bb3d17"
+    },
+    {
+      "bytes": 557728,
+      "path": "msvcp140.dll",
+      "role": "runtime_library",
+      "sha256": "0f885b509a685d2bbfa652fed26b5fb31d88fbdab0a978c641d1c7b8aa460aa9"
+    },
+    {
+      "bytes": 1825834,
+      "path": "recipes/adapters/oot3d-usa-ef210566-copies.json",
+      "role": "input_copy_adapter",
+      "sha256": "3a7771a365157c6a2a26ce6916a3a3437a15384a98c39c130cd16a98d2dd9519"
+    },
+    {
+      "bytes": 6269,
+      "path": "recipes/oot3d.json",
+      "role": "revision_recipe",
+      "sha256": "7b7a690841ea2c48cdc9b402517bcc209db7ae39cde1746aff8d46ca474ba7e8"
+    },
+    {
+      "bytes": 14271,
+      "path": "recipes/precompiled-titles.json",
+      "role": "precompiled_catalog",
+      "sha256": "a5938961cbf774c54742690aa05dc9a4e4295f8e1e275ec69bf40a77b3bec95f"
+    },
+    {
+      "bytes": 235,
+      "path": "resources/README.txt",
+      "role": "title_neutral_resource",
+      "sha256": "a008330698a96dbdcfdc10e31a89d9dd83a233a5de6ae88a311c8493de2aa957"
+    },
+    {
+      "bytes": 608491,
+      "path": "resources/gamecontrollerdb.txt",
+      "role": "title_neutral_resource",
+      "sha256": "f6cb9252c3c3790c3513c7d279e5b4b37b0d75d739f6a573f3a55471914fbde6"
+    },
+    {
+      "bytes": 5045688,
+      "path": "shaderc_shared.dll",
+      "role": "runtime_library",
+      "sha256": "ff7eb3639f2c72e99b0d904af13401ff994c6471446b1e8792fe4c9250bb3d17"
+    },
+    {
+      "bytes": 14702230,
+      "path": "source/TriAevum-source.zip",
+      "role": "corresponding_source",
+      "sha256": "274c3b1de21a35242ceb18cb8b4af4b9367e5ac4a4a558d266417e148194c3c5"
+    },
+    {
+      "bytes": 14459699,
+      "path": "source/titles/oot3d-eur-project-baseline-16a6b0aa-build.zip",
+      "role": "title_build_source",
+      "sha256": "2a6f4510284969113f5e9ca9a65cae021bfda1a018f46ff0b7293940c768b4e3"
+    },
+    {
+      "bytes": 19219547,
+      "path": "source/titles/oot3d-eur-project-baseline-16a6b0aa-translated.zip",
+      "role": "translated_title_source",
+      "sha256": "35dcaa39fc6bba9a709964f83ef742f43ab1d533cbfdb1c723ac3a9ba6004095"
+    },
+    {
+      "bytes": 85853696,
+      "path": "titles/oot3d-eur-project-baseline-16a6b0aa/triaevum_title_aot.dll",
+      "role": "precompiled_title",
+      "sha256": "42abdf0846be2f778e9432ce47c7cc21a5a3815dc6ec99057ec1a4c3a259018b"
+    },
+    {
+      "bytes": 107520,
+      "path": "triaevum_title_aot.dll",
+      "role": "runtime_library",
+      "sha256": "9f22a58d2ab609665ff069091bf4dce7cdc2e28aba58c21b1f4c1d495fbc88f8"
+    },
+    {
+      "bytes": 124544,
+      "path": "vcruntime140.dll",
+      "role": "runtime_library",
+      "sha256": "d5e4d9a3e835fa679450145d6a7d94e36573a509317111904d9b3712c30d9066"
+    },
+    {
+      "bytes": 49792,
+      "path": "vcruntime140_1.dll",
+      "role": "runtime_library",
+      "sha256": "1f2d41c4aa5db0bc33ebf7b66d72943a817d7ce6cbe880502a9403823633093f"
+    }
+  ],
+  "format": "triaevum_public_release_manifest_v1",
+  "release": {
+    "contains_title_code": true,
+    "contains_title_content": false,
+    "distribution_model": "precompiled_title_rom_import_v1",
+    "name": "TriAevum",
+    "proprietary_sdk_included": false,
+    "qualification": "candidate",
+    "redistributable": true,
+    "runtime_contract": {
+      "product": {
+        "capabilities": {
+          "f1": true,
+          "nri": true,
+          "topscreen": true
+        },
+        "default_config": {
+          "Graphics": {
+            "AA": {
+              "Mode": "Off",
+              "MsaaSamples": 1,
+              "TAA": {
+                "ClampExpansion": 0.05000000074505806,
+                "HistoryWeight": 0.8999999761581421,
+                "Sharpness": 0.10000000149011612
+              },
+              "Upscaler": {
+                "Provider": "NIS",
+                "Quality": "Quality",
+                "Sharpness": 0.3499999940395355
+              }
+            },
+            "Camera": {
+              "FovMultiplier": 1.100000023841858
+            },
+            "Effects": {
+              "AO": {
+                "BlurPassCount": 2,
+                "DetailStrength": 0.5,
+                "FadeOutFrom": 50.0,
+                "FadeOutTo": 300.0,
+                "HorizonAngleThreshold": 0.05999999865889549,
+                "Mode": "Off",
+                "Quality": 0,
+                "Radius": 1.0,
+                "ShadowClamp": 0.9800000190734863,
+                "ShadowPower": 1.5,
+                "Sharpness": 0.9800000190734863,
+                "Strength": 1.0
+              },
+              "DirectionalShadows": {
+                "DepthBiasConstant": 1.25,
+                "DepthBiasSlope": 1.75,
+                "DepthPadding": 300.0,
+                "MaximumDistance": 2400.0,
+                "Mode": "Off",
+                "PcfRadius": 1,
+                "Resolution": 1024,
+                "Stabilize": true,
+                "Strength": 0.800000011920929
+              },
+              "Reflections": {
+                "DebugView": 0,
+                "EdgeFade": 0.07999999821186066,
+                "Materials": [],
+                "MaxDistance": 1500.0,
+                "MaxSteps": 40,
+                "Mode": "Off",
+                "RoughnessBias": 0.0,
+                "Strength": 0.6499999761581421,
+                "Thickness": 8.0
+              },
+              "Toon": {
+                "BandSoftness": 0.10599999874830246,
+                "CustomLightBands": true,
+                "LightBandLevels": [
+                  0.1679999977350235,
+                  0.3333333432674408,
+                  0.6666666865348816,
+                  1.0,
+                  1.0,
+                  1.0
+                ],
+                "LightBandThresholds": [
+                  0.1666666716337204,
+                  0.5,
+                  0.8333333134651184,
+                  1.0,
+                  1.0
+                ],
+                "LightBands": 4,
+                "Mode": "PicaMaterial",
+                "OutlineDepthSensitivity": 1.7200000286102295,
+                "OutlineEnabled": true,
+                "OutlineNormalSensitivity": 0.019999999552965164,
+                "OutlineOpacity": 1.0,
+                "OutlineSoftness": 1.0,
+                "OutlineTint": [
+                  0.029999999329447746,
+                  0.03999999910593033,
+                  0.05999999865889549
+                ],
+                "OutlineWidth": 0.949999988079071,
+                "RimStrength": 0.3400000035762787,
+                "RimTint": [
+                  1.0,
+                  0.9300000071525574,
+                  0.7200000286102295
+                ],
+                "RimWidth": 3.1700000762939453,
+                "Saturation": 1.090000033378601,
+                "ShadowStrength": 1.0,
+                "ShadowTint": [
+                  0.47999998927116394,
+                  0.5600000023841858,
+                  0.7200000286102295
+                ]
+              }
+            },
+            "FrameRate": {
+              "Mode": "Interpolated2x"
+            },
+            "Grass": {
+              "Appearance": {
+                "BladeCurvature": 0.6399999856948853,
+                "BladeDroop": 0.3499999940395355,
+                "BladeSegments": 5,
+                "BladeTwistDegrees": 141.0,
+                "HeightScale": 1.149999976158142,
+                "ReceiveFog": true,
+                "ReceiveLighting": true,
+                "RootColor": [
+                  0.09882351756095886,
+                  0.1899999976158142,
+                  0.03500000014901161
+                ],
+                "ShapeVariation": 0.3799999952316284,
+                "TextureColorInfluence": 0.75,
+                "TextureRootBrightness": 1.0099999904632568,
+                "TextureTipBrightness": 1.7400000095367432,
+                "TipColor": [
+                  0.19058825075626373,
+                  0.7200000286102295,
+                  0.12000001966953278
+                ],
+                "ToonRimEnabled": false,
+                "ToonRimFadeEnd": 901.0,
+                "ToonRimFadeStart": 0.0
+              },
+              "Budget": {
+                "DrawDistance": 50000.0,
+                "MaxInstancesPerRoom": 500000
+              },
+              "Generation": {
+                "BladeHeightMax": 12.510000228881836,
+                "BladeHeightMin": 7.679999828338623,
+                "BladeWidthMax": 1.940000057220459,
+                "BladeWidthMin": 1.7999999523162842,
+                "ClusterCoverage": 0.6499999761581421,
+                "ClusterScale": 300.0,
+                "ClusterStrength": 0.0,
+                "IndividualRandomness": 1.0,
+                "InstancesPerSquareMeter": 1024.0,
+                "MinimumSpacing": 0.0,
+                "Seed": 1
+              },
+              "LinkInteraction": {
+                "ColliderHeightMultiplier": 1.690000057220459,
+                "ColliderRadiusMultiplier": 1.190000057220459,
+                "CollisionPush": 1.659999966621399,
+                "Damping": 1.4600000381469727,
+                "FieldRadius": 600.0,
+                "FieldResolution": 256,
+                "MaximumBend": 0.8500000238418579,
+                "RecoverySeconds": 1.0,
+                "VelocityResponse": 0.8700000047683716,
+                "VerticalMargin": 69.0
+              },
+              "Performance": {
+                "CullingClusterSize": 25.0,
+                "DensityFadeFraction": 0.30000001192092896,
+                "DrawFadeFraction": 0.15000000596046448,
+                "FarBladeSegments": 1,
+                "FarDensity": 0.6200000047683716,
+                "FarTuftBladeCount": 3,
+                "FarTuftDensity": 0.10000000149011612,
+                "FarTuftSpread": 4.0,
+                "FarTuftsEnabled": false,
+                "FrustumCulling": true,
+                "LodEndFraction": 1.0,
+                "LodReferenceDistance": 1668.0,
+                "LodStartFraction": 1.0,
+                "MidrangeAdaptiveCapacity": 10000,
+                "MidrangeAdaptiveEnabled": true,
+                "MidrangeClusterCellExtent": 88.0,
+                "MidrangeClustersEnabled": true,
+                "MidrangeFarBladeFraction": 1.0,
+                "SegmentLodEndDistance": 1000.0,
+                "SegmentLodSoftness": 0.75,
+                "SegmentLodStartDistance": 501.0,
+                "TuftTransitionFraction": 0.3400000035762787
+              },
+              "Quality": "Custom",
+              "Sources": [
+                {
+                  "Channel": "Green",
+                  "InputBlack": 0.0,
+                  "InputWhite": 0.25200000405311584,
+                  "Invert": false,
+                  "MaximumSlopeDegrees": 65.0,
+                  "NormalOffset": -0.15000000596046448,
+                  "OutputBlack": 0.0,
+                  "OutputWhite": 1.0,
+                  "ResponseExponent": 8.0,
+                  "RuleId": 1,
+                  "Target": {
+                    "AssetName": "",
+                    "Height": 256,
+                    "MapperSlotMask": 7,
+                    "Rgba8Hash": "be15aff93dfdcd88",
+                    "Width": 256
+                  },
+                  "Wrap": "Material"
+                },
+                {
+                  "Channel": "Green",
+                  "InputBlack": 0.7590000033378601,
+                  "InputWhite": 0.8360000252723694,
+                  "Invert": true,
+                  "MaximumSlopeDegrees": 48.0,
+                  "NormalOffset": 0.5,
+                  "OutputBlack": 0.0,
+                  "OutputWhite": 1.0,
+                  "ResponseExponent": 1.0,
+                  "RuleId": 2,
+                  "Target": {
+                    "AssetName": "",
+                    "Height": 128,
+                    "MapperSlotMask": 7,
+                    "Rgba8Hash": "2321986eb9820c29",
+                    "Width": 128
+                  },
+                  "Wrap": "Material"
+                },
+                {
+                  "Channel": "Green",
+                  "InputBlack": 0.0,
+                  "InputWhite": 0.5720000267028809,
+                  "Invert": false,
+                  "MaximumSlopeDegrees": 48.0,
+                  "NormalOffset": 0.5,
+                  "OutputBlack": 0.0,
+                  "OutputWhite": 1.0,
+                  "ResponseExponent": 8.0,
+                  "RuleId": 3,
+                  "Target": {
+                    "AssetName": "",
+                    "Height": 256,
+                    "MapperSlotMask": 7,
+                    "Rgba8Hash": "4b8941fd174516b0",
+                    "Width": 256
+                  },
+                  "Wrap": "Material"
+                },
+                {
+                  "Channel": "Green",
+                  "InputBlack": 0.48399999737739563,
+                  "InputWhite": 0.48500001430511475,
+                  "Invert": true,
+                  "MaximumSlopeDegrees": 48.0,
+                  "NormalOffset": 0.5,
+                  "OutputBlack": 0.0,
+                  "OutputWhite": 1.0,
+                  "ResponseExponent": 8.0,
+                  "RuleId": 4,
+                  "Target": {
+                    "AssetName": "",
+                    "Height": 256,
+                    "MapperSlotMask": 7,
+                    "Rgba8Hash": "0a29e93a3b0742b3",
+                    "Width": 256
+                  },
+                  "Wrap": "Material"
+                },
+                {
+                  "Channel": "Green",
+                  "InputBlack": 0.49799999594688416,
+                  "InputWhite": 0.49900001287460327,
+                  "Invert": true,
+                  "MaximumSlopeDegrees": 48.0,
+                  "NormalOffset": 0.5,
+                  "OutputBlack": 0.0,
+                  "OutputWhite": 1.0,
+                  "ResponseExponent": 8.0,
+                  "RuleId": 5,
+                  "Target": {
+                    "AssetName": "",
+                    "Height": 128,
+                    "MapperSlotMask": 7,
+                    "Rgba8Hash": "bd769b9ce136d73a",
+                    "Width": 256
+                  },
+                  "Wrap": "Material"
+                },
+                {
+                  "Channel": "Green",
+                  "InputBlack": 0.503000020980835,
+                  "InputWhite": 0.5040000081062317,
+                  "Invert": true,
+                  "MaximumSlopeDegrees": 48.0,
+                  "NormalOffset": 0.5,
+                  "OutputBlack": 0.0,
+                  "OutputWhite": 1.0,
+                  "ResponseExponent": 8.0,
+                  "RuleId": 6,
+                  "Target": {
+                    "AssetName": "",
+                    "Height": 128,
+                    "MapperSlotMask": 7,
+                    "Rgba8Hash": "d13528cd4896c851",
+                    "Width": 128
+                  },
+                  "Wrap": "Material"
+                }
+              ],
+              "Wind": {
+                "DirectionDegrees": 0.0,
+                "GustFrequency": 0.3499999940395355,
+                "GustStrength": 0.3499999940395355,
+                "Randomness": 0.4399999976158142,
+                "SpatialScale": 1.0,
+                "Speed": 2.8399999141693115,
+                "Strength": 0.5600000023841858,
+                "Turbulence": 0.41999998688697815
+              }
+            },
+            "GrassSavedPreset": {
+              "Appearance": {
+                "BladeCurvature": 0.6399999856948853,
+                "BladeDroop": 0.3499999940395355,
+                "BladeSegments": 5,
+                "BladeTwistDegrees": 141.0,
+                "HeightScale": 1.149999976158142,
+                "ReceiveFog": true,
+                "ReceiveLighting": true,
+                "RootColor": [
+                  0.09882351756095886,
+                  0.1899999976158142,
+                  0.03500000014901161
+                ],
+                "ShapeVariation": 0.3799999952316284,
+                "TextureColorInfluence": 0.75,
+                "TextureRootBrightness": 1.0099999904632568,
+                "TextureTipBrightness": 1.7400000095367432,
+                "TipColor": [
+                  0.19058825075626373,
+                  0.7200000286102295,
+                  0.12000001966953278
+                ],
+                "ToonRimEnabled": false,
+                "ToonRimFadeEnd": 901.0,
+                "ToonRimFadeStart": 0.0
+              },
+              "Budget": {
+                "DrawDistance": 50000.0,
+                "MaxInstancesPerRoom": 500000
+              },
+              "Generation": {
+                "BladeHeightMax": 12.510000228881836,
+                "BladeHeightMin": 7.679999828338623,
+                "BladeWidthMax": 1.940000057220459,
+                "BladeWidthMin": 1.7999999523162842,
+                "ClusterCoverage": 0.6499999761581421,
+                "ClusterScale": 300.0,
+                "ClusterStrength": 0.0,
+                "IndividualRandomness": 1.0,
+                "InstancesPerSquareMeter": 1024.0,
+                "MinimumSpacing": 0.0,
+                "Seed": 1
+              },
+              "LinkInteraction": {
+                "ColliderHeightMultiplier": 1.690000057220459,
+                "ColliderRadiusMultiplier": 1.190000057220459,
+                "CollisionPush": 1.659999966621399,
+                "Damping": 1.4600000381469727,
+                "FieldRadius": 600.0,
+                "FieldResolution": 256,
+                "MaximumBend": 0.8500000238418579,
+                "RecoverySeconds": 1.0,
+                "VelocityResponse": 0.8700000047683716,
+                "VerticalMargin": 69.0
+              },
+              "Performance": {
+                "CullingClusterSize": 25.0,
+                "DensityFadeFraction": 0.30000001192092896,
+                "DrawFadeFraction": 0.15000000596046448,
+                "FarBladeSegments": 1,
+                "FarDensity": 0.6200000047683716,
+                "FarTuftBladeCount": 3,
+                "FarTuftDensity": 0.10000000149011612,
+                "FarTuftSpread": 4.0,
+                "FarTuftsEnabled": false,
+                "FrustumCulling": true,
+                "LodEndFraction": 1.0,
+                "LodReferenceDistance": 1668.0,
+                "LodStartFraction": 1.0,
+                "MidrangeAdaptiveCapacity": 10000,
+                "MidrangeAdaptiveEnabled": true,
+                "MidrangeClusterCellExtent": 88.0,
+                "MidrangeClustersEnabled": true,
+                "MidrangeFarBladeFraction": 1.0,
+                "SegmentLodEndDistance": 1000.0,
+                "SegmentLodSoftness": 0.75,
+                "SegmentLodStartDistance": 501.0,
+                "TuftTransitionFraction": 0.3400000035762787
+              },
+              "Quality": "Custom",
+              "Sources": [
+                {
+                  "Channel": "Green",
+                  "InputBlack": 0.0,
+                  "InputWhite": 0.25200000405311584,
+                  "Invert": false,
+                  "MaximumSlopeDegrees": 65.0,
+                  "NormalOffset": -0.15000000596046448,
+                  "OutputBlack": 0.0,
+                  "OutputWhite": 1.0,
+                  "ResponseExponent": 8.0,
+                  "RuleId": 1,
+                  "Target": {
+                    "AssetName": "",
+                    "Height": 256,
+                    "MapperSlotMask": 7,
+                    "Rgba8Hash": "be15aff93dfdcd88",
+                    "Width": 256
+                  },
+                  "Wrap": "Material"
+                },
+                {
+                  "Channel": "Green",
+                  "InputBlack": 0.7590000033378601,
+                  "InputWhite": 0.8360000252723694,
+                  "Invert": true,
+                  "MaximumSlopeDegrees": 48.0,
+                  "NormalOffset": 0.5,
+                  "OutputBlack": 0.0,
+                  "OutputWhite": 1.0,
+                  "ResponseExponent": 1.0,
+                  "RuleId": 2,
+                  "Target": {
+                    "AssetName": "",
+                    "Height": 128,
+                    "MapperSlotMask": 7,
+                    "Rgba8Hash": "2321986eb9820c29",
+                    "Width": 128
+                  },
+                  "Wrap": "Material"
+                },
+                {
+                  "Channel": "Green",
+                  "InputBlack": 0.0,
+                  "InputWhite": 0.5720000267028809,
+                  "Invert": false,
+                  "MaximumSlopeDegrees": 48.0,
+                  "NormalOffset": 0.5,
+                  "OutputBlack": 0.0,
+                  "OutputWhite": 1.0,
+                  "ResponseExponent": 8.0,
+                  "RuleId": 3,
+                  "Target": {
+                    "AssetName": "",
+                    "Height": 256,
+                    "MapperSlotMask": 7,
+                    "Rgba8Hash": "4b8941fd174516b0",
+                    "Width": 256
+                  },
+                  "Wrap": "Material"
+                },
+                {
+                  "Channel": "Green",
+                  "InputBlack": 0.48399999737739563,
+                  "InputWhite": 0.48500001430511475,
+                  "Invert": true,
+                  "MaximumSlopeDegrees": 48.0,
+                  "NormalOffset": 0.5,
+                  "OutputBlack": 0.0,
+                  "OutputWhite": 1.0,
+                  "ResponseExponent": 8.0,
+                  "RuleId": 4,
+                  "Target": {
+                    "AssetName": "",
+                    "Height": 256,
+                    "MapperSlotMask": 7,
+                    "Rgba8Hash": "0a29e93a3b0742b3",
+                    "Width": 256
+                  },
+                  "Wrap": "Material"
+                },
+                {
+                  "Channel": "Green",
+                  "InputBlack": 0.49799999594688416,
+                  "InputWhite": 0.49900001287460327,
+                  "Invert": true,
+                  "MaximumSlopeDegrees": 48.0,
+                  "NormalOffset": 0.5,
+                  "OutputBlack": 0.0,
+                  "OutputWhite": 1.0,
+                  "ResponseExponent": 8.0,
+                  "RuleId": 5,
+                  "Target": {
+                    "AssetName": "",
+                    "Height": 128,
+                    "MapperSlotMask": 7,
+                    "Rgba8Hash": "bd769b9ce136d73a",
+                    "Width": 256
+                  },
+                  "Wrap": "Material"
+                },
+                {
+                  "Channel": "Green",
+                  "InputBlack": 0.503000020980835,
+                  "InputWhite": 0.5040000081062317,
+                  "Invert": true,
+                  "MaximumSlopeDegrees": 48.0,
+                  "NormalOffset": 0.5,
+                  "OutputBlack": 0.0,
+                  "OutputWhite": 1.0,
+                  "ResponseExponent": 8.0,
+                  "RuleId": 6,
+                  "Target": {
+                    "AssetName": "",
+                    "Height": 128,
+                    "MapperSlotMask": 7,
+                    "Rgba8Hash": "d13528cd4896c851",
+                    "Width": 128
+                  },
+                  "Wrap": "Material"
+                }
+              ],
+              "Wind": {
+                "DirectionDegrees": 0.0,
+                "GustFrequency": 0.3499999940395355,
+                "GustStrength": 0.3499999940395355,
+                "Randomness": 0.4399999976158142,
+                "SpatialScale": 1.0,
+                "Speed": 2.8399999141693115,
+                "Strength": 0.5600000023841858,
+                "Turbulence": 0.41999998688697815
+              }
+            },
+            "Output": {
+              "Height": 720,
+              "RefreshRate": 60,
+              "Width": 1280
+            },
+            "Presentation": {
+              "VSync": true
+            },
+            "Preset": "Custom",
+            "RenderScale": 1.0,
+            "SchemaVersion": 11,
+            "TexturePacks": {
+              "Azahar": {
+                "DumpDirectory": "",
+                "DumpTextures": false,
+                "LoadCustomTextures": false,
+                "LoadDirectory": ""
+              }
+            },
+            "Window": {
+              "Display": 0,
+              "Mode": "Windowed"
+            }
+          }
+        },
+        "default_ui_profile": "topscreen",
+        "format": "triaevum_product_info_v1",
+        "private_title_loaded": false,
+        "runtime": "oot3d_native_game",
+        "source_commit": "72e4c37f8ce068349e007947ea2f27a3324a0c7f",
+        "whole_aot_plugin_abi": 2
+      },
+      "runtime_sha256": "c85597fe52f398a7330dc789e86b20c0af3e3c616a42367eef1b1ba3224c0e23"
+    },
+    "source_commit": "72e4c37f8ce068349e007947ea2f27a3324a0c7f",
+    "target": "x86_64-pc-windows-msvc",
+    "version": "v0.6.0-alpha.2b"
+  }
+}

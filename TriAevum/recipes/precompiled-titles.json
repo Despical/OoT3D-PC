@@ -1,0 +1,386 @@
+{
+  "format": "triaevum_precompiled_titles_v1",
+  "install_model": "precompiled_title_rom_import_v1",
+  "native_module": {
+    "bytes": 1883136,
+    "path": "forge/oot3d_game_module.dll",
+    "sha256": "5a4bc837d5ecdce890e6f6dad615467c2e106e865c1241dca487499ec77a5f1a"
+  },
+  "runtime": {
+    "bytes": 31551488,
+    "path": "TriAevum.exe",
+    "sha256": "c85597fe52f398a7330dc789e86b20c0af3e3c616a42367eef1b1ba3224c0e23"
+  },
+  "target": "x86_64-pc-windows-msvc",
+  "titles": [
+    {
+      "abi_version": 2,
+      "build_source_commit": "c7f96869a9bf07c4dada763b067102d94f24d9bd",
+      "device_pipeline_preparation": {
+        "dependencies": [],
+        "format": "triaevum_device_pipeline_preparation_v1",
+        "helper": {
+          "bytes": 701952,
+          "path": "forge/oot3d_native_nri_pipeline_prepare.exe",
+          "sha256": "97cd851e20c2b094870229d526037e806ae3e63c2b93ec6c987a0637c4516478"
+        },
+        "manifests": [
+          {
+            "bytes": 2556320,
+            "path": "forge/shader-corpus/pipelines-0.json",
+            "sha256": "7f1e4fdce1754b80e883fa8451263af12935183647b99aaffe7daff0bddd02a0"
+          },
+          {
+            "bytes": 448199,
+            "path": "forge/shader-corpus/pipelines-1.json",
+            "sha256": "70fac28093656caa55432b6932977e70ce06dc308f6ee31563c14ead99e4bf31"
+          }
+        ]
+      },
+      "inputs": {
+        "code": {
+          "bytes": 4567040,
+          "sha256": "16a6b0aa4c4784680220a6f780f7f8a73cfb205557aa9f9f0e705179e0613220"
+        },
+        "exheader": {
+          "bytes": 2048,
+          "sha256": "9f065aec342b7df2421998deacedde44d475d36264f861cffd3381a1adf8900a"
+        },
+        "romfs": {
+          "bytes": 479260672,
+          "sha256": "a3ad05dcf12893de5f1617a60f4e80f54f5e1c80069922a96a4f9c8c8cbac8ca"
+        }
+      },
+      "plugin": {
+        "bytes": 85853696,
+        "path": "titles/oot3d-eur-project-baseline-16a6b0aa/triaevum_title_aot.dll",
+        "sha256": "42abdf0846be2f778e9432ce47c7cc21a5a3815dc6ec99057ec1a4c3a259018b"
+      },
+      "recipe": "oot3d-eur-project-baseline-16a6b0aa",
+      "renderer_shader_preparation": {
+        "compiler": {
+          "bytes": 836096,
+          "path": "forge/oot3d_native_pica_aot_compiler.exe",
+          "sha256": "05b909ab65f785a8a1f96fe37f49662a4b80a8024a098900465e16528afe9cb5"
+        },
+        "dependencies": [
+          {
+            "bytes": 5045688,
+            "path": "forge/shaderc_shared.dll",
+            "sha256": "ff7eb3639f2c72e99b0d904af13401ff994c6471446b1e8792fe4c9250bb3d17"
+          }
+        ],
+        "format": "triaevum_renderer_shader_compiler_v1"
+      },
+      "shader_preparation": {
+        "compiler": {
+          "bytes": 836096,
+          "path": "forge/oot3d_native_pica_aot_compiler.exe",
+          "sha256": "05b909ab65f785a8a1f96fe37f49662a4b80a8024a098900465e16528afe9cb5"
+        },
+        "dependencies": [
+          {
+            "bytes": 5045688,
+            "path": "forge/shaderc_shared.dll",
+            "sha256": "ff7eb3639f2c72e99b0d904af13401ff994c6471446b1e8792fe4c9250bb3d17"
+          }
+        ],
+        "descriptor_schema_version": 3,
+        "format": "triaevum_shader_preparation_v1",
+        "mode": "portable_pack",
+        "pack": {
+          "bytes": 8521760,
+          "path": "forge/shader-corpus/portable.o3ps",
+          "sha256": "1311f12de7379be8c8b5dcc0226eff4a560831ba1f2898cb8b999c83efb8b4c8"
+        }
+      },
+      "sources": [
+        {
+          "bytes": 19219547,
+          "path": "source/titles/oot3d-eur-project-baseline-16a6b0aa-translated.zip",
+          "sha256": "35dcaa39fc6bba9a709964f83ef742f43ab1d533cbfdb1c723ac3a9ba6004095"
+        },
+        {
+          "bytes": 14459699,
+          "path": "source/titles/oot3d-eur-project-baseline-16a6b0aa-build.zip",
+          "sha256": "2a6f4510284969113f5e9ca9a65cae021bfda1a018f46ff0b7293940c768b4e3"
+        }
+      ],
+      "target": "x86_64-pc-windows-msvc",
+      "translator_identity_sha256": "935a0c53ae4dfc6487134b767a03bb6931059a71018ab08194f6e6b9f6c06657"
+    },
+    {
+      "abi_version": 2,
+      "build_source_commit": "c7f96869a9bf07c4dada763b067102d94f24d9bd",
+      "data_compatibility": {
+        "execution": {
+          "code": {
+            "bytes": 4567040,
+            "sha256": "16a6b0aa4c4784680220a6f780f7f8a73cfb205557aa9f9f0e705179e0613220"
+          },
+          "exheader": "194c3e16d6afb111150cede03bbc2d78e784f3dae77d60475fccd2ddc4048dc6",
+          "romfs": {
+            "directories": 50,
+            "files": 1944,
+            "payload_bytes": 469654431,
+            "sha256": "74a5744c9718319922fb63e7f8e7a4959af4e90d1d8409a4e99ba47d92c0a715"
+          }
+        },
+        "format": "triaevum_content_family_v1",
+        "source": {
+          "code": {
+            "bytes": 4567040,
+            "sha256": "ef210566e1d9d16879a746dfb063fcbad232f0171d860de906531ecc526cc020"
+          },
+          "exheader": "194c3e16d6afb111150cede03bbc2d78e784f3dae77d60475fccd2ddc4048dc6",
+          "romfs": {
+            "directories": 50,
+            "files": 1944,
+            "payload_bytes": 469654431,
+            "sha256": "9b8994825cafe5f0ab7686afc4a1c7a78d94cdc21f0523e271d4a284e2280898"
+          }
+        }
+      },
+      "device_pipeline_preparation": {
+        "dependencies": [],
+        "format": "triaevum_device_pipeline_preparation_v1",
+        "helper": {
+          "bytes": 701952,
+          "path": "forge/oot3d_native_nri_pipeline_prepare.exe",
+          "sha256": "97cd851e20c2b094870229d526037e806ae3e63c2b93ec6c987a0637c4516478"
+        },
+        "manifests": [
+          {
+            "bytes": 2556320,
+            "path": "forge/shader-corpus/pipelines-0.json",
+            "sha256": "7f1e4fdce1754b80e883fa8451263af12935183647b99aaffe7daff0bddd02a0"
+          },
+          {
+            "bytes": 448199,
+            "path": "forge/shader-corpus/pipelines-1.json",
+            "sha256": "70fac28093656caa55432b6932977e70ce06dc308f6ee31563c14ead99e4bf31"
+          }
+        ]
+      },
+      "input_adapter": {
+        "code_copies": {
+          "bytes": 1825834,
+          "path": "recipes/adapters/oot3d-usa-ef210566-copies.json",
+          "sha256": "3a7771a365157c6a2a26ce6916a3a3437a15384a98c39c130cd16a98d2dd9519"
+        },
+        "format": "triaevum_revision_input_adapter_v1",
+        "resource_algorithm": "oot3d_usa_resources_to_eur_v1",
+        "source_inputs": {
+          "code": {
+            "bytes": 4567040,
+            "sha256": "ef210566e1d9d16879a746dfb063fcbad232f0171d860de906531ecc526cc020"
+          },
+          "exheader": {
+            "bytes": 2048,
+            "sha256": "dbe5fa0174d73bffb75d7cf0fbaa05d3e0ee080df0e257afc58b6c45ae5de3d0"
+          },
+          "romfs": {
+            "bytes": 473526272,
+            "sha256": "dd6def65af151d40fcbba7202c36bbdd8ed5b5b431373dc6a8c89bfd708af690"
+          }
+        }
+      },
+      "inputs": {
+        "code": {
+          "bytes": 4567040,
+          "sha256": "16a6b0aa4c4784680220a6f780f7f8a73cfb205557aa9f9f0e705179e0613220"
+        },
+        "exheader": {
+          "bytes": 2048,
+          "sha256": "dbe5fa0174d73bffb75d7cf0fbaa05d3e0ee080df0e257afc58b6c45ae5de3d0"
+        },
+        "romfs": {
+          "bytes": 473522176,
+          "sha256": "011c0b6933f3932c704ff1c6ab562023f407c2929661a6d54ecea1ca81072f99"
+        }
+      },
+      "plugin": {
+        "bytes": 85853696,
+        "path": "titles/oot3d-eur-project-baseline-16a6b0aa/triaevum_title_aot.dll",
+        "sha256": "42abdf0846be2f778e9432ce47c7cc21a5a3815dc6ec99057ec1a4c3a259018b"
+      },
+      "recipe": "oot3d-usa-input-canonical-eur-ef210566",
+      "renderer_shader_preparation": {
+        "compiler": {
+          "bytes": 836096,
+          "path": "forge/oot3d_native_pica_aot_compiler.exe",
+          "sha256": "05b909ab65f785a8a1f96fe37f49662a4b80a8024a098900465e16528afe9cb5"
+        },
+        "dependencies": [
+          {
+            "bytes": 5045688,
+            "path": "forge/shaderc_shared.dll",
+            "sha256": "ff7eb3639f2c72e99b0d904af13401ff994c6471446b1e8792fe4c9250bb3d17"
+          }
+        ],
+        "format": "triaevum_renderer_shader_compiler_v1"
+      },
+      "shader_preparation": {
+        "compiler": {
+          "bytes": 836096,
+          "path": "forge/oot3d_native_pica_aot_compiler.exe",
+          "sha256": "05b909ab65f785a8a1f96fe37f49662a4b80a8024a098900465e16528afe9cb5"
+        },
+        "dependencies": [
+          {
+            "bytes": 5045688,
+            "path": "forge/shaderc_shared.dll",
+            "sha256": "ff7eb3639f2c72e99b0d904af13401ff994c6471446b1e8792fe4c9250bb3d17"
+          }
+        ],
+        "descriptor_schema_version": 3,
+        "format": "triaevum_shader_preparation_v1",
+        "mode": "portable_pack",
+        "pack": {
+          "bytes": 8521760,
+          "path": "forge/shader-corpus/portable.o3ps",
+          "sha256": "1311f12de7379be8c8b5dcc0226eff4a560831ba1f2898cb8b999c83efb8b4c8"
+        }
+      },
+      "sources": [
+        {
+          "bytes": 19219547,
+          "path": "source/titles/oot3d-eur-project-baseline-16a6b0aa-translated.zip",
+          "sha256": "35dcaa39fc6bba9a709964f83ef742f43ab1d533cbfdb1c723ac3a9ba6004095"
+        },
+        {
+          "bytes": 14459699,
+          "path": "source/titles/oot3d-eur-project-baseline-16a6b0aa-build.zip",
+          "sha256": "2a6f4510284969113f5e9ca9a65cae021bfda1a018f46ff0b7293940c768b4e3"
+        }
+      ],
+      "target": "x86_64-pc-windows-msvc",
+      "translator_identity_sha256": "935a0c53ae4dfc6487134b767a03bb6931059a71018ab08194f6e6b9f6c06657"
+    },
+    {
+      "abi_version": 2,
+      "build_source_commit": "c7f96869a9bf07c4dada763b067102d94f24d9bd",
+      "data_compatibility": {
+        "execution": {
+          "code": {
+            "bytes": 4567040,
+            "sha256": "16a6b0aa4c4784680220a6f780f7f8a73cfb205557aa9f9f0e705179e0613220"
+          },
+          "exheader": "1be59c559f1c98ee99ac5f9be3473be84a938bf65f2bc5f405fd180db7541e8c",
+          "romfs": {
+            "directories": 52,
+            "files": 1974,
+            "payload_bytes": 475348554,
+            "sha256": "5cc7cd96785b5c2ffe95705510cebe82bb20e9720e1694c5e7f72b7f7b938480"
+          }
+        },
+        "format": "triaevum_content_family_v1",
+        "source": {
+          "code": {
+            "bytes": 4567040,
+            "sha256": "16a6b0aa4c4784680220a6f780f7f8a73cfb205557aa9f9f0e705179e0613220"
+          },
+          "exheader": "1be59c559f1c98ee99ac5f9be3473be84a938bf65f2bc5f405fd180db7541e8c",
+          "romfs": {
+            "directories": 52,
+            "files": 1974,
+            "payload_bytes": 475348554,
+            "sha256": "5cc7cd96785b5c2ffe95705510cebe82bb20e9720e1694c5e7f72b7f7b938480"
+          }
+        }
+      },
+      "device_pipeline_preparation": {
+        "dependencies": [],
+        "format": "triaevum_device_pipeline_preparation_v1",
+        "helper": {
+          "bytes": 701952,
+          "path": "forge/oot3d_native_nri_pipeline_prepare.exe",
+          "sha256": "97cd851e20c2b094870229d526037e806ae3e63c2b93ec6c987a0637c4516478"
+        },
+        "manifests": [
+          {
+            "bytes": 2556320,
+            "path": "forge/shader-corpus/pipelines-0.json",
+            "sha256": "7f1e4fdce1754b80e883fa8451263af12935183647b99aaffe7daff0bddd02a0"
+          },
+          {
+            "bytes": 448199,
+            "path": "forge/shader-corpus/pipelines-1.json",
+            "sha256": "70fac28093656caa55432b6932977e70ce06dc308f6ee31563c14ead99e4bf31"
+          }
+        ]
+      },
+      "inputs": {
+        "code": {
+          "bytes": 4567040,
+          "sha256": "16a6b0aa4c4784680220a6f780f7f8a73cfb205557aa9f9f0e705179e0613220"
+        },
+        "exheader": {
+          "bytes": 2048,
+          "sha256": "a584b067427f81edcca739497ec7b4ce1217eb9612090e6ae5b846e5674d12c1"
+        },
+        "romfs": {
+          "bytes": 479260672,
+          "sha256": "a3ad05dcf12893de5f1617a60f4e80f54f5e1c80069922a96a4f9c8c8cbac8ca"
+        }
+      },
+      "plugin": {
+        "bytes": 85853696,
+        "path": "titles/oot3d-eur-project-baseline-16a6b0aa/triaevum_title_aot.dll",
+        "sha256": "42abdf0846be2f778e9432ce47c7cc21a5a3815dc6ec99057ec1a4c3a259018b"
+      },
+      "recipe": "oot3d-eur-catalogue-a584b067",
+      "renderer_shader_preparation": {
+        "compiler": {
+          "bytes": 836096,
+          "path": "forge/oot3d_native_pica_aot_compiler.exe",
+          "sha256": "05b909ab65f785a8a1f96fe37f49662a4b80a8024a098900465e16528afe9cb5"
+        },
+        "dependencies": [
+          {
+            "bytes": 5045688,
+            "path": "forge/shaderc_shared.dll",
+            "sha256": "ff7eb3639f2c72e99b0d904af13401ff994c6471446b1e8792fe4c9250bb3d17"
+          }
+        ],
+        "format": "triaevum_renderer_shader_compiler_v1"
+      },
+      "shader_preparation": {
+        "compiler": {
+          "bytes": 836096,
+          "path": "forge/oot3d_native_pica_aot_compiler.exe",
+          "sha256": "05b909ab65f785a8a1f96fe37f49662a4b80a8024a098900465e16528afe9cb5"
+        },
+        "dependencies": [
+          {
+            "bytes": 5045688,
+            "path": "forge/shaderc_shared.dll",
+            "sha256": "ff7eb3639f2c72e99b0d904af13401ff994c6471446b1e8792fe4c9250bb3d17"
+          }
+        ],
+        "descriptor_schema_version": 3,
+        "format": "triaevum_shader_preparation_v1",
+        "mode": "portable_pack",
+        "pack": {
+          "bytes": 8521760,
+          "path": "forge/shader-corpus/portable.o3ps",
+          "sha256": "1311f12de7379be8c8b5dcc0226eff4a560831ba1f2898cb8b999c83efb8b4c8"
+        }
+      },
+      "sources": [
+        {
+          "bytes": 19219547,
+          "path": "source/titles/oot3d-eur-project-baseline-16a6b0aa-translated.zip",
+          "sha256": "35dcaa39fc6bba9a709964f83ef742f43ab1d533cbfdb1c723ac3a9ba6004095"
+        },
+        {
+          "bytes": 14459699,
+          "path": "source/titles/oot3d-eur-project-baseline-16a6b0aa-build.zip",
+          "sha256": "2a6f4510284969113f5e9ca9a65cae021bfda1a018f46ff0b7293940c768b4e3"
+        }
+      ],
+      "target": "x86_64-pc-windows-msvc",
+      "translator_identity_sha256": "935a0c53ae4dfc6487134b767a03bb6931059a71018ab08194f6e6b9f6c06657"
+    }
+  ]
+}
