@@ -123,9 +123,6 @@ local file and doesn't try to download it.
 Nothing in TriAevum itself is patched or modified. The `TriAevum/` folder is the official
 v0.6.0-alpha.2b Windows ZIP, extracted as-is.
 
-**v0.6.0-alpha.2b (the official release) + TopScreen 2.1.1 provided locally** is the combination that installs cleanly and
-runs on AMD. If a later release fixes AMD, this guide will be updated.
-
 ## Troubleshooting
 
 | Problem | Fix |
@@ -170,7 +167,3 @@ The bundled [`TriAevum/`](TriAevum) folder is redistributed unmodified under its
 [`TriAevum/LICENSE`](TriAevum/LICENSE), [`TriAevum/LICENSE_SCOPE.md`](TriAevum/LICENSE_SCOPE.md) and
 [`TriAevum/THIRD_PARTY_NOTICES.md`](TriAevum/THIRD_PARTY_NOTICES.md). Its corresponding source is
 included in [`TriAevum/source/`](TriAevum/source), as required by the GPL.
-
-TopScreen 2.1.1 is © rlgcarrot and is mirrored unmodified with credit. It is not covered by this
-repository's MIT license. The game keeps its own copyright. This
-project is not affiliated with Nintendo, Grezzo, TriAevum or TopScreen.
