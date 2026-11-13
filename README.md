@@ -6,7 +6,9 @@ with the single-screen TopScreen UI, using the **TriAevum** PC recompilation. Te
 
 This repository includes the unmodified **TriAevum v0.6.0-alpha.2b** Windows release in
 [`TriAevum/`](TriAevum), so you don't have to hunt for the old version. It does **not** include a
-ROM or the TopScreen files. You get those yourself (see below).
+ROM. The exact **TopScreen 2.1.1** package Forge needs is mirrored as a
+[release download](https://github.com/Despical/OoT3D-PC/releases/download/topscreen-2.1.1/topscreen211.zip) (it's over GitHub's 100 MB file limit, so it can't live in the repo itself).
+All credit for TopScreen goes to its author, **rlgcarrot** (see [Credits](#credits)).
 
 ---
 
@@ -15,7 +17,7 @@ ROM or the TopScreen files. You get those yourself (see below).
 | What | Version | Where |
 |---|---|---|
 | TriAevum (the PC port) | **v0.6.0-alpha.2b**, Windows x64 | Included in [`TriAevum/`](TriAevum) · [upstream release](https://github.com/coccofresco/TriAevum/releases/tag/v0.6.0-alpha.2b) |
-| TopScreen texture/patch pack | **2.1.1** (`topscreen211.zip`) | [GameBanana (official)](https://gamebanana.com/mods/695893) · [Google Drive mirror](https://drive.usercontent.google.com/download?id=1YOqjmq4g6HSlSdU1D9Q-M5BOQvbOWZFX&export=download&confirm=t) |
+| TopScreen texture/patch pack | **2.1.1** (`topscreen211.zip`) | [Download from this repo's release](https://github.com/Despical/OoT3D-PC/releases/download/topscreen-2.1.1/topscreen211.zip) · [GameBanana (official page)](https://gamebanana.com/mods/695893) · [Google Drive mirror](https://drive.usercontent.google.com/download?id=1YOqjmq4g6HSlSdU1D9Q-M5BOQvbOWZFX&export=download&confirm=t) |
 | Game | OoT3D **USA or EUR**, **decrypted** `.3ds` / `.cci` | Dump your own cartridge (see [ROM](#the-rom)) |
 
 Do **not** use the newest TriAevum (Echoes of Time / v0.8.0-beta.1, alpha.3, alpha.3b) on AMD.
@@ -52,7 +54,7 @@ It has two programs:
 2. Download this repository: **Code → Download ZIP**, or `git clone` it. Extract it to a
    **writable** folder, e.g. `Desktop\OoT3D-PC`. Don't use `Program Files`.
    Everything you need is in the `TriAevum` folder.
-3. Download **`topscreen211.zip`** (TopScreen 2.1.1). **Do not extract it.** Copy the ZIP as-is into
+3. Download **[`topscreen211.zip`](https://github.com/Despical/OoT3D-PC/releases/download/topscreen-2.1.1/topscreen211.zip)** (TopScreen 2.1.1). **Do not extract it.** Copy the ZIP as-is into
    the `TriAevum` folder, next to `TriAevumForge.exe`.
    Forge in this version can no longer download the TopScreen package by itself, so it must be there locally.
 4. Run **`TriAevumForge.exe`** and select your decrypted ROM. Setup takes a few minutes; let it finish.
@@ -116,7 +118,7 @@ v0.6.0-alpha.2b's Forge requires exactly **TopScreen 2.1.1** (`topscreen211.zip`
 GameBanana (only the newer `singlescreen_322.zip` is listed now), so Forge's automatic download gets
 a ~49 KB web page instead of the archive and setup fails. Follow
 [TRIAEVUM_TOPSCREEN_INSTALLATION.md](https://github.com/coccofresco/TriAevum/blob/main/docs/TRIAEVUM_TOPSCREEN_INSTALLATION.md),
-or use the Drive mirror above, then put the ZIP next to `TriAevumForge.exe`. Forge then uses the
+or use the release download / Drive mirror above, then put the ZIP next to `TriAevumForge.exe`. Forge then uses the
 local file and doesn't try to download it.
 
 Nothing in TriAevum itself is patched or modified. The `TriAevum/` folder is the official
@@ -152,7 +154,11 @@ This repo does not host or link to ROMs.
 ## Credits
 
 - **[TriAevum](https://github.com/coccofresco/TriAevum)** by coccofresco (GPL-3.0-or-later)
-- **[TopScreen](https://gamebanana.com/mods/695893)** by **rlgcarrot**. Consider [buying them a coffee](https://ko-fi.com/rlgcarrot).
+- **[TopScreen](https://gamebanana.com/mods/695893)** by **rlgcarrot**: the single-screen mod for OoT3D, and the
+  `topscreen211.zip` mirrored in this repo's releases. It's rlgcarrot's work, unmodified and only
+  mirrored here because version 2.1.1 is no longer listed on GameBanana and TriAevum alpha.2b needs exactly
+  that version. If you enjoy it, [buy rlgcarrot a coffee](https://ko-fi.com/rlgcarrot).
+  rlgcarrot, if you'd like the mirror taken down, open an issue and it will be removed.
 - Azahar, Ship of Harkinian, libultraship, NVIDIA NRI, SDL GameControllerDB
 - **Nintendo** and **Grezzo** for the original game
 
@@ -167,5 +173,6 @@ The bundled [`TriAevum/`](TriAevum) folder is redistributed unmodified under its
 [`TriAevum/THIRD_PARTY_NOTICES.md`](TriAevum/THIRD_PARTY_NOTICES.md). Its corresponding source is
 included in [`TriAevum/source/`](TriAevum/source), as required by the GPL.
 
-TopScreen and the game keep their own licenses and copyrights. This
+TopScreen 2.1.1 is © rlgcarrot and is mirrored unmodified with credit. It is not covered by this
+repository's MIT license. The game keeps its own copyright. This
 project is not affiliated with Nintendo, Grezzo, TriAevum or TopScreen.
